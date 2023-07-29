@@ -1,11 +1,11 @@
 // For Dice 1
 let diceOne = Math.floor(Math.random() * 6 + 1);
-let diceOneImage = "./images/dice" + diceOne + ".png";
+let diceOneImage = "../images/dice" + diceOne + ".png";
 document.querySelectorAll("img")[0].setAttribute("src", diceOneImage);
 
 // For Dice 2
 let diceTwo = Math.floor(Math.random() * 6 + 1);
-let diceTwoImage = "./images/dice" + diceTwo + ".png";
+let diceTwoImage = "../images/dice" + diceTwo + ".png";
 document.querySelectorAll("img")[1].setAttribute("src", diceTwoImage);
 
 if (diceOne === diceTwo) {
